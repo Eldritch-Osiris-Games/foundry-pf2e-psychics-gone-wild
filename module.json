@@ -1,0 +1,68 @@
+{
+  "title": "Psychics Gone Wild",
+  "id": "foundry-pf2e-psychics-gone-wild",
+  "description": "<p>Let your mind go wild!</p><p>In this primal expansion for everyone's favorite occult powerhouse, expand your psychic options with... Two new subconscious minds allow you draw on the power of your Wisdom and empathic abilities. Two new conscious minds that grant you powerful, nature-inspired abilities. Use the power of your mind to shapeshift into powerful animal forms, or turn your negative thoughts into physical poison! The primordial conduit class archetype, which allows you to channel powerful energy using your body as a gateway, at risk to your own health! Push yourself to new limits with the unique Primordial Conduit subconscious mind, and call on the awesome power of the elements with four new elemental-themed conscious minds, as well as four new archetype feats that expand your mastery over your chosen element.</p>",
+  "manifest": "",
+  "download": "",
+  "url": "https://www.pathfinderinfinite.com/product/409566/Psychics-Gone-Wild",
+  "authors": [
+    {
+      "name": "Luigi Lizza",
+      "discord": "Luigi#9626"
+    },
+    {
+      "name": "Braden Menke"
+    },
+    {
+      "name": "Marcaline Miller"
+    }
+  ],
+  "version": "v1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "relationships": {
+    "systems": {
+      "id": "pf2e",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+      "compatibility": {
+        "minimum": "4.6.0"
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "psychics-gone-wild-spells",
+      "label": "Psychics Gone Wild Spells",
+      "path": "./packs/psychics-gone-wild-spells.db",
+      "type": "Item",
+      "module": "Psychics Gone Wild",
+      "system": "pf2e"
+    },
+    {
+      "name": "psychics-gone-wild-feats",
+      "label": "Psychics Gone Wild Feats/Features",
+      "path": "./packs/psychics-gone-wild-feats.db",
+      "type": "Item",
+      "module": "Psychics Gone Wild",
+      "system": "pf2e"
+    },
+    {
+      "name": "psychics-gone-wild-effects",
+      "label": "Psychics Gone Wild Effects",
+      "path": "./packs/psychics-gone-wild-effects.db",
+      "type": "Item",
+      "module": "Psychics Gone Wild",
+      "system": "pf2e"
+    },
+    {
+      "name": "psychics-gone-wild-actions",
+      "label": "Psychics Gone Wild Actions",
+      "path": "./packs/psychics-gone-wild-actions.db",
+      "type": "Item",
+      "module": "Psychics Gone Wild",
+      "system": "pf2e"
+    }
+  ]
+}
